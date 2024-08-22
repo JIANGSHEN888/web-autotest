@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/JIANG/Study/java/java project/testng-java-maven">
+        <classes>
+<!--            <class name="com.example.testng.StepTest">
+                <methods>
+                    <include name="annotatedStepTest"/>
+                    <include name="lambdaStepTest"/>
+                </methods>
+            </class>-->
+
+            <class name="com.example.testng.TestBaiduPage">
+                <methods>
+                    <include name="testBaiduHomePage"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
