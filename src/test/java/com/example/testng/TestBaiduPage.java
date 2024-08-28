@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import static com.hyxf.autotest.utils.CmdExecService.generateAllureTestReport;
+import static com.hyxf.webtest.utils.CmdExecService.generateAllureTestReport;
 
 /**
  * @ClassName: TestBaiduPage
