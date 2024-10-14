@@ -1,4 +1,4 @@
-package com.example.testng;
+package hyxf.Autotest.webtest.Collection.example;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;

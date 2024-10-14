@@ -1,7 +1,6 @@
-package com.hyxf.webtest.utils;
+package hyxf.Autotest.webtest.Utils;
 
 import java.io.*;
-import java.util.logging.Logger;
 
 /**
  * @ClassName: CmdExecService

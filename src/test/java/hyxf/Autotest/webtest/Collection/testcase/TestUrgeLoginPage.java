@@ -1,6 +1,6 @@
-package com.example.testcase;
+package hyxf.Autotest.webtest.Collection.testcase;
 
-import com.example.page.LoginPage;
+import hyxf.Autotest.webtest.Collection.page.LoginPage;
 import org.testng.Assert;
 
 import org.testng.annotations.AfterMethod;
@@ -26,7 +26,7 @@ public class TestUrgeLoginPage {
     @Test
     void userLogin(){
         String username = "administrator1";
-        String password = "123456";
+        String password = "888888";
         String expectHomeTitle = "杭银催收系统";
         Assert.assertEquals(loginPage.login(username,password),expectHomeTitle);
     }

@@ -1,4 +1,4 @@
-package com.example.testng;
+package hyxf.Autotest.webtest.Collection.example;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import static com.hyxf.webtest.utils.CmdExecService.generateAllureTestReport;
+import static hyxf.Autotest.webtest.Utils.CmdExecService.generateAllureTestReport;
 
 /**
  * @ClassName: TestBaiduPage

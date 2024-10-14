@@ -3,14 +3,14 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="F:/JIANG/Study/java/java project/testng-java-maven">
         <classes>
-<!--            <class name="com.example.testng.StepTest">
+<!--            <class name="com.Collection.example.StepTest">
                 <methods>
                     <include name="annotatedStepTest"/>
                     <include name="lambdaStepTest"/>
                 </methods>
             </class>-->
 
-            <class name="com.example.testng.TestBaiduPage">
+            <class name="com.Collection.example.TestBaiduPage">
                 <methods>
                     <include name="testBaiduHomePage"/>
                 </methods>

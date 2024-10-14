@@ -1,4 +1,4 @@
-package com.example.page;
+package hyxf.Autotest.webtest.Collection.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

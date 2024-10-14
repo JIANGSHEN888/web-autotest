@@ -1,11 +1,9 @@
-package com.example.page;
+package hyxf.Autotest.webtest.Collection.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -22,7 +20,7 @@ public class LoginPage extends BasePage {
     By passwordInput = By.xpath("//input[@type='password' and @placeholder='密码']");
     By loginButton = By.xpath("//button[@class='el-button btn el-button--primary']");
     By errorMsg = By.cssSelector("#error_msg");
-    By homeTitle = By.xpath("//a[text()='杭银催收系统'][1]");
+    By homeTitle = By.xpath("//span[text()='杭银催收系统'][1]");
 
     public EdgeOptions setEdgeOptions(){
         System.setProperty("webdriver.edge.driver", "webDrivers/msedgedriver.exe");
@@ -80,7 +78,5 @@ public class LoginPage extends BasePage {
         click(loginButton);
         return getText(homeTitle);
     }
-
-
 
 }
