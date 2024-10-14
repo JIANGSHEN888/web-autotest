@@ -10,9 +10,9 @@
                 </methods>
             </class>-->
 
-            <class name="com.Collection.example.TestBaiduPage">
+            <class name="hyxf.Autotest.webtest.Collection.testcase.TestUrgeLoginPage">
                 <methods>
-                    <include name="testBaiduHomePage"/>
+                    <include name="userLogin"/>
                 </methods>
             </class>
 
