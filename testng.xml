@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/JIANG/Study/java/java project/testng-java-maven">
+        <classes>
+<!--            <class name="com.Collection.example.StepTest">
+                <methods>
+                    <include name="annotatedStepTest"/>
+                    <include name="lambdaStepTest"/>
+                </methods>
+            </class>-->
+
+            <class name="hyxf.Autotest.webtest.Collection.testcase.TestUrgeLoginPage">
+                <methods>
+                    <include name="userLogin"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
